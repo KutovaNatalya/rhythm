@@ -1,0 +1,39 @@
+.header {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin-left: 150px;
+}
+
+.header div {
+    display: inline-block;
+}
+
+#logo h1 {
+    color: black;
+    display: inline-block;
+}
+
+#navigation {
+    margin-left: 50px;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navigation li {
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navigation a:link {
+    color: blue;
+    text-decoration: none;
+}
